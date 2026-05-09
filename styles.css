@@ -32,7 +32,6 @@ nav {
   position: relative;
   background: rgba(10, 10, 26, 0.92);
   backdrop-filter: blur(8px);
-  border-bottom: 1px solid var(--border);
   display: flex;
   justify-content: space-between;
   align-items: center;
