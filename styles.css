@@ -41,9 +41,9 @@ nav {
   padding: 0.9rem 2rem;
 }
 nav .logo {
-  height: 80px;
+  height: 160px;
   width: auto;
-  max-width: 260px;
+  max-width: 520px;
   display: block;
   object-fit: contain;
   mix-blend-mode: screen;
