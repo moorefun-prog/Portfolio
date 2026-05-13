@@ -93,6 +93,21 @@
 
     <div class="card">
       <div class="card-header">
+        <span class="card-title">Family Portal</span>
+        <span class="card-meta">Node.js · Express · Docker · Railway</span>
+      </div>
+      <p class="card-subtitle">Personal Project</p>
+      <ul class="card-body">
+        <li>Full-stack Hebrew RTL portal — Vanilla JS frontend with a Node.js 20 / Express 5 backend, containerised with Docker (Alpine)</li>
+        <li>CI/CD pipeline via GitHub → Railway: every push to master triggers an automated Docker build and zero-downtime container swap</li>
+        <li>Persistent data layer using flat JSON files on a Railway volume; seed strategy ensures clean first-boot without overwriting live data</li>
+        <li>Server startup migration patches live config automatically on each deploy — no manual data intervention needed</li>
+        <li>Secrets managed via Railway environment variables; rollback handled by git revert or Railway dashboard redeploy</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
         <span class="card-title">Mark's Job Hunter</span>
         <span class="card-meta">Python · Flask · Playwright</span>
       </div>
@@ -105,21 +120,6 @@
       <div class="card-links">
         <a href="https://github.com/moorefun-prog/Marks-Job-Hunter" target="_blank">GitHub</a>
       </div>
-    </div>
-
-    <div class="card">
-      <div class="card-header">
-        <span class="card-title">Family Portal</span>
-        <span class="card-meta">Node.js · Express · Docker · Railway</span>
-      </div>
-      <p class="card-subtitle">Personal Project</p>
-      <ul class="card-body">
-        <li>Full-stack Hebrew RTL portal — Vanilla JS frontend with a Node.js 20 / Express 5 backend, containerised with Docker (Alpine)</li>
-        <li>CI/CD pipeline via GitHub → Railway: every push to master triggers an automated Docker build and zero-downtime container swap</li>
-        <li>Persistent data layer using flat JSON files on a Railway volume; seed strategy ensures clean first-boot without overwriting live data</li>
-        <li>Server startup migration patches live config automatically on each deploy — no manual data intervention needed</li>
-        <li>Secrets managed via Railway environment variables; rollback handled by git revert or Railway dashboard redeploy</li>
-      </ul>
     </div>
   </section>
 
